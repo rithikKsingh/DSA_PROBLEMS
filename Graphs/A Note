@@ -10,3 +10,7 @@ Do rotten oranges.
 B. Number of Islands (similar to rotten oranges but you look at all the 8 directions)
 
 C. Bipartite Graph
+
+D. Cycle detection in an undirected graph(using bfs,dfs)
+
+E. Cycle detection in a directed graph usinf dfs
