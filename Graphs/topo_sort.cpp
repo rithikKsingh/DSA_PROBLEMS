@@ -16,6 +16,11 @@ use dfs -> reach the last node -> push it into the stack. As you backtrack, push
 you first push 0 and then next element connected with 5 i.e 2 and when all kids are done, you push the parent.
 
 At the end stack contains the elements in sorted order.
+
+NOTE :
+its only valid for directed acyclic graph. b/c:
+1. if its not directed u - v :  here both u and v should come before each other, but its not possible.
+2. acyclic : 0 -> 1 -> 2-> 0 : 0 should come before 1 , 1 should come before 2 and 2 before 0(not possible)
 */
 class Solution {
   public:
