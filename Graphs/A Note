@@ -1,20 +1,22 @@
 Similar Problems (follow common pattern):
 
-A.  Flood Fill
+1.  Flood Fill
     01Matrix
     Rotten Oranges
     Number of Enclaves
 
 Do rotten oranges.
 
-B. Number of Islands (similar to rotten oranges but you look at all the 8 directions)
+2. Number of Islands (similar to rotten oranges but you look at all the 8 directions)
 
-C. Bipartite Graph
+3. Bipartite Graph
 
-D. Cycle detection in an undirected graph(using bfs,dfs)
+4. Cycle detection in an undirected graph(using bfs,dfs)
 
-E. Cycle detection in a directed graph using dfs
+5. Cycle detection in a directed graph using dfs
 
-D. Word ladder
+6. Word ladder
 
-F. Topo Sort (valid only for directed acyclic graph)
+7. Topo Sort (valid only for directed acyclic graph) usinf dfs
+
+8. Kahn's Algo :  BFS topo sort
