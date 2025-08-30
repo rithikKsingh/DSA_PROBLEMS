@@ -19,4 +19,7 @@ Do rotten oranges.
 
 7. Topo Sort (valid only for directed acyclic graph) usinf dfs
 
-8. Kahn's Algo :  BFS topo sort
+8. Kahn's Algo :  BFS topo sort.
+   NOTE: same is used in cycle detection in a directed graph using BFS. You just check the number of nodes with 0 indegrees once you are 
+   out of the loop where you traverse queue.
+
