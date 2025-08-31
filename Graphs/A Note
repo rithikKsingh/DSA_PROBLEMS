@@ -17,9 +17,11 @@ Do rotten oranges.
 
 6. Word ladder
 
-7. Topo Sort (valid only for directed acyclic graph) usinf dfs
+7. Topo Sort (valid only for directed acyclic graph) using dfs
 
 8. Kahn's Algo :  BFS topo sort.
    NOTE: same is used in cycle detection in a directed graph using BFS. You just check the number of nodes with 0 indegrees once you are 
    out of the loop where you traverse queue.
+
+   Application : Course schedule :  https://leetcode.com/problems/course-schedule/description/
 
