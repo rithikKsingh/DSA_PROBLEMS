@@ -32,4 +32,5 @@ Do rotten oranges.
 
 Shortest Paths:
 
-1. Shortest path in undirected graph. You can do Shortest path in DAG after this easily. There is just an intro of weights.
+1. Shortest path in undirected graph. You can do Shortest path in DAG after this easily. There is just an intro of weights.But if using bfs, TC becomes O(E*V) 
+   in case the nodes are relaxed multiple times.
