@@ -28,3 +28,8 @@ Do rotten oranges.
 9. Eventual Safe states : an application of kahn's . Can also be done using dfs
 
 10 . Alien dictionary: another application of kahn's. 
+
+
+Shortest Paths:
+
+1. Shortest path in undirected graph. You can do Shortest path in DAG after this easily. There is just an intro of weights.
