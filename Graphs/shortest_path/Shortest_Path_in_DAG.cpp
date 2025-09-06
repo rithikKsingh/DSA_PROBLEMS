@@ -1,5 +1,7 @@
 //link : https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
-// tc: O(E+V), sc:O(E+V) -> for adj list +  O(V) -> dist array 
+// NOTE: tc: O(E*V)
+// here ttime complexity is more
+//sc:O(E+V) -> for adj list +  O(V) -> dist array 
 
 
 class Solution {
