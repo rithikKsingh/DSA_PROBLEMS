@@ -36,3 +36,5 @@ Shortest Paths:
    in case the nodes are relaxed multiple times.
 
    If you use toposort , you can reduce the TC to O(E+V)
+
+2. Dijkstra Algorithm: for non negative wt. graphs only.
