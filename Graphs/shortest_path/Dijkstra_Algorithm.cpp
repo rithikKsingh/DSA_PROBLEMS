@@ -52,6 +52,7 @@ class Solution {
         return dist;
     }
 
+};
 
 
 
@@ -92,4 +93,3 @@ class Solution
 };
 
 */
-};
