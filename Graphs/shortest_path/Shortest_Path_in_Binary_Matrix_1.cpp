@@ -1,23 +1,18 @@
 // link : https://leetcode.com/problems/shortest-path-in-binary-matrix/
 
 //dfs approach: very bad one
-//tc : O(2^(mn)) Sc:O(m*n)
+//tc : O(8^(mn)) Sc:O(m*n)
 /*
-🔹 Step 1: Grid has m * n cells
-Suppose the grid has k = m*n free cells (0s).
-🔹 Step 2: DFS explores all possible paths
-From each cell, DFS can either include that cell in the current path or not include it (because of backtracking, you may revisit it through another branch).
-That means for each cell, there are ~2 choices.
-🔹 Step 3: Total possible combinations
-If each of the k cells can be in/out of a path, the total number of possible paths explored is about:
-2k=2(m⋅n)
- 
-🔹 Example
-Take a 2×2 grid (4 cells, all zero):
-DFS could generate up to 2^4 = 16 different possible cell-visit combinations.
-For a 3×3 grid (9 cells):
-Up to 2^9 = 512 paths.
-And it explodes very fast for larger grids.
+🔹 Time Complexity (TC)
+Grid size = m × n.
+From each cell, you can move to 8 directions.
+Since you backtrack (vis[r][c] = 0 after recursion), you potentially explore all possible paths from (m-1,n-1) to (0,0).
+In the worst case (grid full of 0s), every cell can be part of multiple recursive paths.
+This leads to exponential exploration:
+
+TC=O(8 ^(m×n))
+
+But do remember many are out of bound paths. so dont need to consider them.
   */
 class Solution {
 public:
